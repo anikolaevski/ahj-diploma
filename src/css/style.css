@@ -1,0 +1,61 @@
+body {
+  background: #eee;
+  /* text-align: center; */
+  width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.nodisp {
+  display: none;
+}
+
+.login-form-tab {
+  margin-top: 20px;
+}
+
+.login-form-tab, .login-form-tab th, .login-form-tab td {
+  padding: 0.5rem 1rem;
+  border-collapse: collapse;
+  border: 1px solid #bbb;
+  text-align: left;
+}
+
+.redcell {
+  padding: 0.5rem 1rem;
+  border-collapse: collapse;
+  border: 1px solid #bbb;
+  text-align: left;
+  color: red;
+}
+
+.main-form {
+  display: block;
+}
+
+.main-popup-nodisp {
+  display: none;
+}
+
+.mz_tbody {
+  width: 600px;
+  margin: 1rem auto 0 auto;
+  /* text-align: left; */
+  display: flex;
+  flex-direction: row;
+}
+
+.mz_tbody .showLeft {
+  align-self: flex-start;
+  text-align: left;
+  width: 75%;
+}
+.mz_tbody .showRight {
+  align-self: flex-end;
+  text-align: right;
+  width: 75%;
+}
+
+.showUser {
+  color: rgb(11, 121, 75);
+}
